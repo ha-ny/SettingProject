@@ -9,20 +9,24 @@
 /* Begin PBXBuildFile section */
 		3F4A47BA2AB5C8B000D6C6EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A47B92AB5C8B000D6C6EB /* AppDelegate.swift */; };
 		3F4A47BC2AB5C8B000D6C6EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A47BB2AB5C8B000D6C6EB /* SceneDelegate.swift */; };
-		3F4A47BE2AB5C8B000D6C6EB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A47BD2AB5C8B000D6C6EB /* SettingViewController.swift */; };
+		3F4A47BE2AB5C8B000D6C6EB /* AppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A47BD2AB5C8B000D6C6EB /* AppleViewController.swift */; };
 		3F4A47C32AB5C8B100D6C6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4A47C22AB5C8B100D6C6EB /* Assets.xcassets */; };
 		3F4A47C62AB5C8B100D6C6EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4A47C42AB5C8B100D6C6EB /* LaunchScreen.storyboard */; };
 		3F4A47CF2AB5D81000D6C6EB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3F4A47CE2AB5D81000D6C6EB /* SnapKit */; };
+		3F4A47D12AB5E0EE00D6C6EB /* KakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A47D02AB5E0EE00D6C6EB /* KakaoViewController.swift */; };
+		3F4A47D32AB5E4EB00D6C6EB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A47D22AB5E4EB00D6C6EB /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F4A47B62AB5C8B000D6C6EB /* SettingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4A47B92AB5C8B000D6C6EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F4A47BB2AB5C8B000D6C6EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F4A47BD2AB5C8B000D6C6EB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		3F4A47BD2AB5C8B000D6C6EB /* AppleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleViewController.swift; sourceTree = "<group>"; };
 		3F4A47C22AB5C8B100D6C6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F4A47C52AB5C8B100D6C6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F4A47C72AB5C8B100D6C6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4A47D02AB5E0EE00D6C6EB /* KakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoViewController.swift; sourceTree = "<group>"; };
+		3F4A47D22AB5E4EB00D6C6EB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			children = (
 				3F4A47B92AB5C8B000D6C6EB /* AppDelegate.swift */,
 				3F4A47BB2AB5C8B000D6C6EB /* SceneDelegate.swift */,
-				3F4A47BD2AB5C8B000D6C6EB /* SettingViewController.swift */,
+				3F4A47BD2AB5C8B000D6C6EB /* AppleViewController.swift */,
+				3F4A47D02AB5E0EE00D6C6EB /* KakaoViewController.swift */,
 				3F4A47C22AB5C8B100D6C6EB /* Assets.xcassets */,
 				3F4A47C42AB5C8B100D6C6EB /* LaunchScreen.storyboard */,
 				3F4A47C72AB5C8B100D6C6EB /* Info.plist */,
+				3F4A47D22AB5E4EB00D6C6EB /* TabBarViewController.swift */,
 			);
 			path = SettingProject;
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F4A47BE2AB5C8B000D6C6EB /* SettingViewController.swift in Sources */,
+				3F4A47BE2AB5C8B000D6C6EB /* AppleViewController.swift in Sources */,
 				3F4A47BA2AB5C8B000D6C6EB /* AppDelegate.swift in Sources */,
+				3F4A47D12AB5E0EE00D6C6EB /* KakaoViewController.swift in Sources */,
+				3F4A47D32AB5E4EB00D6C6EB /* TabBarViewController.swift in Sources */,
 				3F4A47BC2AB5C8B000D6C6EB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
